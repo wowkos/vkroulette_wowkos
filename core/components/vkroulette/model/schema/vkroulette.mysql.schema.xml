@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model package="vkroulette" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" phpdoc-package="vkroulette" version="1.1">
 
-    <object class="vkrwinners" table="winners" extends="xPDOSimpleObject">
+    <object class="vkrwinners" table="vkroulette_winners" extends="xPDOSimpleObject">
 		<field key="uid" dbtype="int" precision="10" phptype="integer" attributes="unsigned" null="false" default=""/>
 		<field key="first_name" dbtype="varchar" precision="30" phptype="string" null="false" default=""/>
 		<field key="last_name" dbtype="varchar" precision="30" phptype="string" null="false" default=""/>
@@ -10,7 +10,7 @@
 		<field key="photo" dbtype="varchar" precision="100" phptype="string" null="false" default=""/>
 		<field key="link" dbtype="varchar" precision="30" phptype="string" null="false" default=""/>
 		
-		<field key="data" dbtype="date" phptype="date" null="false" default=""/>
+		<field key="data" dbtype="date" phptype="date" null="false"/>
 		<field key="summa" dbtype="int" precision="5" phptype="integer" attributes="unsigned" null="false" default=""/>
 		<field key="mmbrscount" dbtype="int" precision="10" phptype="integer" attributes="unsigned" null="false" default=""/>
 		
@@ -19,7 +19,7 @@
         </index>
     </object>
 
-    <object class="vkrmembers" table="members" extends="xPDOSimpleObject">
+    <object class="vkrmembers" table="vkroulette_members" extends="xPDOSimpleObject">
 		<field key="uid" dbtype="int" precision="10" phptype="integer" attributes="unsigned" null="false" default=""/>
 		<field key="first_name" dbtype="varchar" precision="30" phptype="string" null="false" default=""/>
 		<field key="last_name" dbtype="varchar" precision="30" phptype="string" null="false" default=""/>

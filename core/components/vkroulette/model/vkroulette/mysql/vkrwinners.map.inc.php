@@ -2,7 +2,7 @@
 $xpdo_meta_map['vkrwinners']= array (
   'package' => 'vkroulette',
   'version' => '1.1',
-  'table' => 'winners',
+  'table' => 'vkroulette_winners',
   'extends' => 'xPDOSimpleObject',
   'fields' => 
   array (
@@ -12,7 +12,7 @@ $xpdo_meta_map['vkrwinners']= array (
     'screen_name' => '',
     'photo' => '',
     'link' => '',
-    'data' => '',
+    'data' => NULL,
     'summa' => 0,
     'mmbrscount' => 0,
   ),
@@ -72,7 +72,6 @@ $xpdo_meta_map['vkrwinners']= array (
       'dbtype' => 'date',
       'phptype' => 'date',
       'null' => false,
-      'default' => '',
     ),
     'summa' => 
     array (

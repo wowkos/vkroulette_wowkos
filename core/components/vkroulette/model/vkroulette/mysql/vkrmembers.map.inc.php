@@ -2,7 +2,7 @@
 $xpdo_meta_map['vkrmembers']= array (
   'package' => 'vkroulette',
   'version' => '1.1',
-  'table' => 'members',
+  'table' => 'vkroulette_members',
   'extends' => 'xPDOSimpleObject',
   'fields' => 
   array (
