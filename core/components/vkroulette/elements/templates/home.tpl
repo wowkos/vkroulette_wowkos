@@ -1,0 +1,1 @@
+<div id="vkroulette-panel-home-div"></div>

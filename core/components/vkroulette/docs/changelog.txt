@@ -1,0 +1,5 @@
+Changelog for vkroulette.
+
+vkroulette 0.0.1
+==============
+- Initial release.
