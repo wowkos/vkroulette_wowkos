@@ -27,7 +27,7 @@ class vkrouletteHomeManagerController extends vkrouletteMainController {
 	 * @return void
 	 */
 	public function loadCustomCssJs() {
-		$this->addJavascript($this->vkroulette->config['jsUrl'] . 'mgr/widgets/items.grid.js');
+		$this->addJavascript($this->vkroulette->config['jsUrl'] . 'mgr/widgets/members.grid.js');
 		$this->addJavascript($this->vkroulette->config['jsUrl'] . 'mgr/widgets/home.panel.js');
 		$this->addJavascript($this->vkroulette->config['jsUrl'] . 'mgr/sections/home.js');
 		$this->addHtml('<script type="text/javascript">

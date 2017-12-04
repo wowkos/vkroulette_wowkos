@@ -2,9 +2,9 @@
 /**
  * Get a list of Items
  */
-class vkrouletteItemGetListProcessor extends modObjectGetListProcessor {
-	public $objectType = 'vkrouletteItem';
-	public $classKey = 'vkrouletteItem';
+class vkrmembersGetListProcessor extends modObjectGetListProcessor {
+	public $objectType = 'vkrmembers';
+	public $classKey = 'vkrmembers';
 	public $defaultSortField = 'id';
 	public $defaultSortDirection = 'DESC';
 	public $renderers = '';
@@ -33,4 +33,4 @@ class vkrouletteItemGetListProcessor extends modObjectGetListProcessor {
 
 }
 
-return 'vkrouletteItemGetListProcessor';
+return 'vkrmembersGetListProcessor';

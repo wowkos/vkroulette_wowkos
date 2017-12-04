@@ -15,14 +15,14 @@ vkroulette.panel.Home = function(config) {
 			,activeItem: 0
 			,hideMode: 'offsets'
 			,items: [{
-				title: _('vkroulette_items')
+				title: _('vkroulette_members')
 				,items: [{
-					html: _('vkroulette_intro_msg')
+					html: _('vkroulette_members_intro')
 					,border: false
 					,bodyCssClass: 'panel-desc'
 					,bodyStyle: 'margin-bottom: 10px'
 				},{
-					xtype: 'vkroulette-grid-items'
+					xtype: 'vkroulette-grid-members'
 					,preventRender: true
 				}]
 			}]

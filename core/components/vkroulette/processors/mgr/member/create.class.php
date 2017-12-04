@@ -2,9 +2,9 @@
 /**
  * Create an Item
  */
-class vkrouletteItemCreateProcessor extends modObjectCreateProcessor {
-	public $objectType = 'vkrouletteItem';
-	public $classKey = 'vkrouletteItem';
+class vkrmembersCreateProcessor extends modObjectCreateProcessor {
+	public $objectType = 'vkrmembers';
+	public $classKey = 'vkrmembers';
 	public $languageTopics = array('vkroulette');
 	public $permission = 'new_document';
 
@@ -13,7 +13,7 @@ class vkrouletteItemCreateProcessor extends modObjectCreateProcessor {
 	 * @return bool
 	 */
 	public function beforeSet() {
-		$alreadyExists = $this->modx->getObject('vkrouletteItem', array(
+		$alreadyExists = $this->modx->getObject('vkrmembers', array(
 			'name' => $this->getProperty('name'),
 		));
 		if ($alreadyExists) {
@@ -25,4 +25,4 @@ class vkrouletteItemCreateProcessor extends modObjectCreateProcessor {
 
 }
 
-return 'vkrouletteItemCreateProcessor';
+return 'vkrmembersCreateProcessor';
