@@ -3,8 +3,8 @@
 $chunks = array();
 
 $tmp = array(
-	'tpl.vkroulette.item' => array(
-		'file' => 'item',
+	'tpl.vkroulette.member' => array(
+		'file' => 'member',
 		'description' => '',
 	),
 );

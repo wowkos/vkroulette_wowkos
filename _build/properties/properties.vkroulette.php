@@ -3,29 +3,29 @@
 $properties = array();
 
 $tmp = array(
-	'tpl' => array(
+	'tplmember' => array(
 		'type' => 'textfield',
-		'value' => 'tpl.vkroulette.item',
+		'value' => 'tpl.vkroulette.member',
 	),
-	'sortBy' => array(
-		'type' => 'textfield',
-		'value' => 'name',
-	),
-	'sortDir' => array(
-		'type' => 'list',
-		'options' => array(
-			array('text' => 'ASC', 'value' => 'ASC'),
-			array('text' => 'DESC', 'value' => 'DESC'),
-		),
-		'value' => 'ASC'
-	),
-	'limit' => array(
+	'id' => array(
 		'type' => 'numberfield',
-		'value' => 5,
+		'value' => '',
 	),
-	'outputSeparator' => array(
+	'name1' => array(
 		'type' => 'textfield',
-		'value' => "\n",
+		'value' => 'property -name-1-',
+	),
+	'name2' => array(
+		'type' => 'textfield',
+		'value' => 'property -name-2-',
+	),
+	'message' => array(
+		'type' => 'textfield',
+		'value' => 'initial form of message',
+	),
+	'description' => array(
+		'type' => 'textfield',
+		'value' => "and description here",
 	),
 	'toPlaceholder' => array(
 		'type' => 'combo-boolean',

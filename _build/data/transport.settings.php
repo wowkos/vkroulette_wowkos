@@ -3,6 +3,31 @@
 $settings = array();
 
 $tmp = array(
+	'groupparam_id' => array(
+		'xtype' => 'textfield',
+		'value' => 'input here the ID of vk_group',
+		'area' => 'vkroulette_group',
+	),
+	'groupparam_post_id' => array(
+		'xtype' => 'textfield',
+		'value' => 'input here the ID of the post',
+		'area' => 'vkroulette_group',
+	),
+	'groupparam_app_id' => array(
+		'xtype' => 'textfield',
+		'value' => 'input here the ID of application',
+		'area' => 'vkroulette_group',
+	),
+	'groupparam_secret_key' => array(
+		'xtype' => 'textfield',
+		'value' => 'input here the SECRET_KEY of application',
+		'area' => 'vkroulette_group',
+	),
+	'groupparam_token' => array(
+		'xtype' => 'textfield',
+		'value' => 'input here the TOKEN of application',
+		'area' => 'vkroulette_group',
+	),
 	'some_setting' => array(
 		'xtype' => 'combo-boolean',
 		'value' => true,
